@@ -49,7 +49,7 @@ class PreferenceDatastoreActivity : AppCompatActivity() {
     private fun onLightMode() {
         isDarkMode = false
 
-        rootView.setBackgroundColor(ContextCompat.getColor(this, android.R.color.white))
+        rootView.setBackgroundColor(ContextCompat.getColor(this, android.R.color.darker_gray))
         imageButton.setImageResource(R.drawable.ic_moon)
 
         // Actually turn on Light mode using AppCompatDelegate.setDefaultNightMode() here
